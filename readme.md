@@ -1,42 +1,30 @@
-# Příkazy
-Zadat django do requirements.txt
+# How to install
 
-instalovat:
+## Activate your python enviroment
+
+```git bash
+source ./venv/Scripts/activate
+```
+
+## installl dependencies
+
 ```Bash
 pip install -r requirements.txt
 ```
 
-Započetí projektu:
-```Bash
-django-admin startproject gamdb
-```
+## Running local server
 
-A v adresáři názvu projektu spustíme server:
 ```Bash
 python manage.py runserver
 ```
 
-### Tvorba podprojetků
-pak potřeba uvést ještě v settings.py jako installed_apps bez "django.contrib"
+## Creating fixtures
+
 ```Bash
-django-admin startapp subapp1
+python manage.py dumpdata <app_model_name> --format yaml > fixtures/<name>.yaml
 ```
+## Loading fixtures
 
-### Generování databáze z models.py v podprojektu
 ```Bash
-python manage.py makemigrations
-python manage.py migrate
-```
-
-#### Co neverzovat v gitu?
-``venv/
-``*pye
-``db.sqlite3
-
-### Tvorba databází
-Soubor models.py v adresáři projektu
-
-### Něco dále (tvorba tabulek)
-```Bash
-python manage.py migrate
+python manage.py loaddata fixtures/<name>.yaml --app <app_model_name>
 ```
