@@ -6,13 +6,13 @@
 source ./venv/Scripts/activate
 ```
 
-## installl dependencies
+## install dependencies
 
 ```Bash
 pip install -r requirements.txt
 ```
 
-## Running local server
+## Run local server
 
 ```Bash
 python manage.py runserver
