@@ -1,0 +1,185 @@
+- model: films.movie
+  pk: 1
+  fields:
+    name: Memento
+    year: 2000
+    description: Memento is a 2000 American neo-noir psychological thriller film written
+      and directed by Christopher Nolan, based on the short story "Memento Mori" by
+      his brother Jonathan Nolan, which was later published in 2001.[5] The film stars
+      Guy Pearce as Leonard Shelby, a man who suffers from anterograde amnesia, resulting
+      in short-term memory loss and the inability to form new memories. He searches
+      for the people who attacked him, raped and killed his wife, using an elaborate
+      system of Polaroid photographs, handwritten notes, and tattoos to track information
+      he won't remember. Carrie-Anne Moss and Joe Pantoliano co-star in the film.
+- model: films.movie
+  pk: 2
+  fields:
+    name: The Prestige
+    year: 2006
+    description: "The Prestige is a 2006 psychological thriller film directed by Christopher
+      Nolan, written by Nolan and his brother Jonathan and based on the 1995 novel
+      by Christopher Priest. It follows Robert Angier and Alfred Borden, rival stage
+      magicians in Victorian London who feud over a perfect teleportation trick.\r\n\r\nThe
+      film stars Hugh Jackman as Angier and Christian Bale as Borden. It also stars
+      Scarlett Johansson, Michael Caine, Piper Perabo, Andy Serkis, Rebecca Hall,
+      and David Bowie as Nikola Tesla. The film reunites Nolan with actors Bale and
+      Caine from Batman Begins and returning cinematographer Wally Pfister, production
+      designer Nathan Crowley, and editor Lee Smith."
+- model: films.movie
+  pk: 3
+  fields:
+    name: Inception
+    year: 2010
+    description: "nception is a 2010 science fiction action film] written and directed
+      by Christopher Nolan, who also produced the film with Emma Thomas, his wife.
+      The film stars Leonardo DiCaprio as a professional thief who steals information
+      by infiltrating the subconscious of his targets. He is offered a chance to have
+      his criminal history erased as payment for the implantation of another person's
+      idea into a target's subconscious. The ensemble cast includes Ken Watanabe,
+      Joseph Gordon-Levitt, Marion Cotillard, Elliot Page, Tom Hardy, Dileep Rao,
+      Cillian Murphy, Tom Berenger, and Michael Caine.\r\n\r\nAfter the 2002 completion
+      of Insomnia, Nolan presented to Warner Bros. a written 80-page treatment for
+      a horror film envisioning \"dream stealers,\" based on lucid dreaming. Deciding
+      he needed more experience before tackling a production of this magnitude and
+      complexity, Nolan shelved the project and instead worked on 2005's Batman Begins,
+      2006's The Prestige, and The Dark Knight in 2008. The treatment was revised
+      over 6 months and was purchased by Warner in February 2009. Inception was filmed
+      in six countries, beginning in Tokyo on June 19 and ending in Canada on November
+      22. Its official budget was $160 million, split between Warner Bros. and Legendary.
+      Nolan's reputation and success with The Dark Knight helped secure the film's
+      US$100 million in advertising expenditure."
+- model: films.movie
+  pk: 4
+  fields:
+    name: Man of Steel
+    year: 2013
+    description: Man of Steel is a 2013 superhero film based on the DC Comics character
+      Superman. Directed by Zack Snyder from a screenplay by David S. Goyer, it is
+      the first installment in the DC Extended Universe (DCEU) and a reboot of the
+      Superman film series, depicting the character's origin story. It stars Henry
+      Cavill in the title role along with Amy Adams, Michael Shannon, Kevin Costner,
+      Diane Lane, Laurence Fishburne, and Russell Crowe. In the film, Clark Kent learns
+      that he is a superpowered alien from the planet Krypton. He assumes the role
+      of mankind's protector as Superman, making the choice to face General Zod and
+      prevent him from destroying humanity.
+- model: films.movie
+  pk: 5
+  fields:
+    name: Interstellar
+    year: 2014
+    description: "Interstellar is a 2014 epic science fiction film co-written, directed,
+      and produced by Christopher Nolan. It stars Matthew McConaughey, Anne Hathaway,
+      Jessica Chastain, Bill Irwin, Ellen Burstyn, Matt Damon, and Michael Caine.
+      Set in a dystopian future where humanity is struggling to survive, the film
+      follows a group of astronauts who travel through a wormhole near Saturn in search
+      of a new home for mankind.\r\n\r\nBrothers Christopher and Jonathan Nolan wrote
+      the screenplay, which had its origins in a script Jonathan developed in 2007.
+      Caltech theoretical physicist and 2017 Nobel laureate in Physics Kip Thorne
+      was an executive producer, acted as a scientific consultant, and wrote a tie-in
+      book, The Science of Interstellar. Cinematographer Hoyte van Hoytema shot it
+      on 35 mm movie film in the Panavision anamorphic format and IMAX 70 mm. Principal
+      photography began in late 2013 and took place in Alberta, Iceland, and Los Angeles.
+      Interstellar uses extensive practical and miniature effects and the company
+      Double Negative created additional digital effects."
+- model: films.movie
+  pk: 6
+  fields:
+    name: Dunkirk
+    year: 2017
+    description: "Dunkirk is a 2017 historical war film written, directed and produced
+      by Christopher Nolan that depicts the Dunkirk evacuation of World War II from
+      the perspectives of the land, sea and air. It was produced by Nolan and Emma
+      Thomas. Its ensemble cast includes Fionn Whitehead, Tom Glynn-Carney, Jack Lowden,
+      Harry Styles in his film debut, Aneurin Barnard, James D'Arcy, Barry Keoghan,
+      Kenneth Branagh, Cillian Murphy, Mark Rylance and Tom Hardy.\r\n\r\nDunkirk
+      portrays the evacuation with little dialogue, as Christopher Nolan sought instead
+      to create suspense from cinematography and music. Filming began in May 2016
+      in Dunkirk and ended that September in Los Angeles, when post-production began.
+      Cinematographer Hoyte van Hoytema shot the film on IMAX 65 mm and 65 mm large-format
+      film stock. Dunkirk has extensive practical effects. It employed thousands of
+      extras as well as historic boats from the evacuation, and period aeroplanes."
+- model: films.movie
+  pk: 7
+  fields:
+    name: Tenet
+    year: 2020
+    description: "Tenet is a 2020 science fiction action thriller film directed and
+      written by Christopher Nolan, who also produced with his wife Emma Thomas. A
+      co-production between the United Kingdom and the United States, it stars John
+      David Washington, Robert Pattinson, Elizabeth Debicki, Dimple Kapadia, Michael
+      Caine, and Kenneth Branagh. The film follows a former CIA agent who learns how
+      to manipulate the flow of time to prevent an attack from the future that threatens
+      to annihilate the present world. Nolan continued his relationship with Warner
+      Bros. and his production company Syncopy for the film's production and distribution.\r\n\r\nNolan
+      took over five years to write the screenplay after deliberating about Tenet's
+      central ideas for over a decade. Pre-production began in late 2018, casting
+      took place in March 2019, and principal photography lasted six months, from
+      May to November, in Denmark, Estonia, India, Italy, Norway, the United Kingdom,
+      and the United States. Cinematographer Hoyte van Hoytema shot on 65 mm film
+      and IMAX. After being delayed three times because of the COVID-19 pandemic,
+      Tenet was released in the United Kingdom on August 26, 2020, and in the United
+      States on September 3, 2020, in IMAX, 35 mm, and 70 mm."
+- model: films.movie
+  pk: 8
+  fields:
+    name: Oppenheimer
+    year: 2023
+    description: "Oppenheimer is an upcoming biographical film written and directed
+      by Christopher Nolan and starring Cillian Murphy as J. Robert Oppenheimer, the
+      American theoretical physicist credited with being the \"father of the atomic
+      bomb\" for his role in the Manhattan Project—the World War II undertaking that
+      developed the first nuclear weapons. A co-production between the United Kingdom
+      and the United States, the film is based on American Prometheus, a biography
+      written by Kai Bird and Martin J. Sherwin. The supporting cast includes Emily
+      Blunt, Robert Downey Jr., Matt Damon, Rami Malek, Florence Pugh, Benny Safdie,
+      Michael Angarano, Josh Hartnett and Kenneth Branagh. It is a co-production between
+      Universal Pictures, Syncopy Inc. and Atlas Entertainment, with Nolan producing
+      the film alongside Emma Thomas and Charles Roven.\r\n\r\nNolan was announced
+      to write and direct a biographical film about J. Robert Oppenheimer, set during
+      World War II, with Universal Pictures being chosen as the distributor in September
+      2021. Much of the main cast signed on between September 2021 and April 2022.
+      Pre-production was underway by January 2022, with filming beginning in late
+      February 2022 and wrapped that May. It is filmed in a combination of IMAX 65mm
+      and 65mm large-format film including, for the first time, sections in IMAX black
+      and white analog photography. Like his previous works, Nolan extensively used
+      practical effects and minimum computer generated imageries."
+- model: films.movie
+  pk: 9
+  fields:
+    name: The Dark Knight
+    year: 2008
+    description: "The Dark Knight is a 2008 superhero film directed by Christopher
+      Nolan from a screenplay he co-wrote with his brother Jonathan. Based on the
+      DC Comics superhero, Batman, it is the sequel to Batman Begins (2005) and the
+      second installment in The Dark Knight Trilogy. The plot follows the vigilante
+      Batman, police lieutenant James Gordon, and district attorney Harvey Dent, who
+      form an alliance to dismantle organized crime in Gotham City. Their efforts
+      are derailed by the Joker, an anarchistic mastermind who seeks to test how far
+      Batman will go to save the city from chaos. The ensemble cast includes Christian
+      Bale, Michael Caine, Heath Ledger, Gary Oldman, Aaron Eckhart, Maggie Gyllenhaal,
+      and Morgan Freeman.\r\n\r\nWarner Bros. Pictures prioritized a sequel following
+      the successful reinvention of the Batman film series with Batman Begins. Christopher
+      and Batman Begins co-writer David S. Goyer developed the story elements, making
+      Dent the central protagonist caught up in the battle between Batman and the
+      Joker. In writing the screenplay, the Nolans were influenced by 1980s Batman
+      comics and crime drama films, and sought to continue Batman Begins' heightened
+      sense of realism. From April to November 2007, filming took place with a $185
+      million budget in Chicago and Hong Kong, and on sets in England. The Dark Knight
+      was the first major motion picture to be filmed with high-resolution IMAX cameras.
+      Christopher avoided using computer-generated imagery unless necessary, insisting
+      on practical stunts such as flipping an 18-wheel truck and blowing up a factory."
+- model: films.movie
+  pk: 10
+  fields:
+    name: Following
+    year: 1998
+    description: "Following is a 1998 independent neo-noir crime thriller film written,
+      produced, edited and directed by Christopher Nolan. It tells the story of a
+      young man who follows strangers around the streets of London and is drawn into
+      a criminal underworld when he fails to keep his distance.\r\n\r\nAs Nolan's
+      debut feature, it was designed to be as inexpensive as possible to make. Scenes
+      were heavily rehearsed so that just one or two takes were needed to economise
+      on 16mm film stock, the production's greatest expense, and for which Nolan was
+      paying from his salary. Unable to afford expensive professional lighting equipment,
+      Nolan mostly used available light. Along with writing, directing, and photographing
+      the film, Nolan also helped in editing and production."
