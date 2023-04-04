@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet" />
+    <title>Titlus</title>
+</head>
+
+<body>
+    
+    <p>
+
+    </p>
+    <div class="container">
+        <h1>Nejlepší nadpis, který si můžeme dovolit</h1>
+        <br>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+            {% for movie in movies %}
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://place-hold.it/300x150" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ movie.name }} ({{ movie.year }})</h5>
+                        <p class="card-text">{{ movie.description }}</p>
+                        <div class="text-end">
+                            <a href="#" class="btn btn-primary text-end">Go somewhere</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
