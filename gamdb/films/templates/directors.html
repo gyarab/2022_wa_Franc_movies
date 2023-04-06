@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 
 <head>
     <meta charset="UTF-8">
@@ -17,12 +17,13 @@
             {% for director in directors %}
             <div class="col">
                 <div class="card h-100">
-                    <img src="https://place-hold.it/300x150" class="card-img-top" alt="...">
+                    <img src="https://loremflickr.com/300x150" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h4 class="card-title">
                             {{ director.name }}
                             {% if director.year %} &ndash; {{ director.year }}
-                            {% endif %}</h4>
+                            {% endif %}
+                        </h4>
                         <p class="card-text">Text</p>
                     </div>
                     <div class="card-footer text-muted">
