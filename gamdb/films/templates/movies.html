@@ -1,0 +1,25 @@
+{% extends 'main.html' %}
+
+{% block content %}
+<h1 class="mt-5 mb-5 bg-info">Nejlepší nadpis, který si můžeme dovolit</h1>
+<br>
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+    {% for movie in movies %}
+    <div class="col">
+        <div class="card h-70">
+            <img src="{% if movie.image_url %}{{movie.image_url}}{% else %}https://loremflickr.com/300/150{% endif %}" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">{{ movie.name }} ({{ movie.year }})</h5>
+                <p class="card-text text-muted">{{ movie.description }}</p>
+                <div class="text-end">
+
+                </div>
+            </div>
+            <div class="card-footer text-end">
+                <a href="{% url 'movie' movie.id %}" class="btn btn-primary text-end">Details</a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}
