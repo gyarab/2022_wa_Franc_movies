@@ -39,3 +39,9 @@ class Actor(models.Model):
 
     def __str__(self):
         return f"{self.name} ({self.birth_year})"
+class Comment(models.Model):
+    movie = models.ForeignKey(Movie, on_delete=models.CASCADE) # Po smazání filmu odstran i komentar
+    author = models.CharField(max_length=255, blank=True)
+    text = models.TextField(blank=True)
+    rating = models.IntegerField(null=True, blank = True)
+    created_at = models.DateTimeField(auto_now_add=True)
