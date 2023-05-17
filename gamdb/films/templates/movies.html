@@ -3,6 +3,26 @@
 {% block content %}
 <h1 class="mt-5 mb-5 bg-info">Nejlepší nadpis, který si můžeme dovolit</h1>
 <br>
+<div class="row mb-5">
+    <form class="d-flex">
+        <input class="form-control me-1" value="{{ search|default:"" }}" type="search" placeholder="Search" name="search">
+        <button class="btn btn-primary" type="submit">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+              </svg>
+              
+        </button>
+    </form>
+</div>
+<div class="row mb-3">
+    <div class="list-inline">
+        {%for g in genres %}
+        <li class="list-inline-item">
+            <a class="btn  btn-outline-secondary  {% if g.name == genre %} btn-primary text-dark {%endif%}" href="./?genre={{ g.name }}">{{ g.name }}</a>
+        </li>
+        {% endfor %}
+    </div>
+</div>
 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
     {% for movie in movies %}
     <div class="col">
@@ -10,6 +30,9 @@
             <img src="{% if movie.image_url %}{{movie.image_url}}{% else %}https://loremflickr.com/300/150{% endif %}" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">{{ movie.name }} ({{ movie.year }})</h5>
+                {% for g in movie.gengere.all %}
+                    <span class="badge rounded-pill bg-primary">{{ g.name }}</span>
+                {% endfor %}
                 <p class="card-text text-muted">{{ movie.description }}</p>
                 <div class="text-end">
 

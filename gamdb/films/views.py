@@ -12,8 +12,19 @@ def homepage(request):
     }
     return render(request, 'homepage.html', context)
 def movies(request):
+    movie_querrystring = Movie.objects.all()
+
+    genre = request.GET.get('genre')
+    if genre:
+        movie_querrystring = movie_querrystring.filter(gengere__name=genre)
+    search = request.GET.get('search')
+    if search:
+        movie_querrystring = movie_querrystring.filter(name__icontains=search)
     context = {
-        'movies': Movie.objects.all(),
+        'movies': movie_querrystring,
+        'genres': Genere.objects.all(),
+        'genre' : genre,
+        'search': search,
     }
     return render(request, 'movies.html', context)
 def movie(request, id):
