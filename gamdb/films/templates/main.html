@@ -1,5 +1,6 @@
+{% load static %}
 <!DOCTYPE html>
-<html lang="cs">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -7,20 +8,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link href="css/style.css" rel="stylesheet" />
-    <title>Titlus</title>
+    <link href="{% static 'bootstrap.css' %}" rel="stylesheet" />
+    <link href="{% static 'style.css' %}" rel="stylesheet" />
+    <title>Rotten potatoes</title>
 </head>
 
 <body>
-    
-    <p>
-
-    </p>
+    <nav class="navbar navbar-expand-lg bg-primary-light">
+        <div class="container">
+            
+          <a class="navbar-brand text-danger fs-1" href="../">
+            <img height="40" src="https://cdn-icons-png.flaticon.com/512/1652/1652127.png">
+            Rotten potatoes</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-4 me-auto mt-3 mb-lg-0 fs-5">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../movies">Movies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../actors">Actors</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../actors">Direcotrs</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search" action="../movies/">
+              <input class="form-control me-2" value="{{ search|default:"" }}" type="search movie" placeholder="Search" name="search">
+              <button class="btn btn-outline-success pb-2" type="submit">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+              </svg>
+            </button>
+            </form>
+          </div>
+        </div>
+      </nav>
     <div class="container">
         {% block content %}
         {% endblock %}
     </div>
-    <footer class="page-footer font-small teal pt-4 bg-dark text-light mt-5">
+    <footer class="page-footer font-small pt-4 bg-dark text-light mt-5">
+        <div class="container">
+            <h2 class="fs-footer text-primary">Rotten potatoes</h2>
+        </div>
       
         <!-- Copyright -->
         <div class="footer-copyright text-center py-3 mt-5">© 2020 Copyright:
