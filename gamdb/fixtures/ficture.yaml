@@ -1,0 +1,358 @@
+- model: films.movie
+  pk: 1
+  fields:
+    name: Memento
+    slug: memento
+    image_url: https://www.filmfracture.com/wp-content/uploads/2019/05/Memento-1-1050x532.jpg
+    year: 2000
+    avg_rating: null
+    description: Memento is a 2000 American neo-noir psychological thriller film written
+      and directed by Christopher Nolan, based on the short story "Memento Mori" by
+      his brother Jonathan Nolan, which was later published in 2001.[5] The film stars
+      Guy Pearce as Leonard Shelby, a man who suffers from anterograde amnesia, resulting
+      in short-term memory loss and the inability to form new memories. He searches
+      for the people who attacked him, raped and killed his wife, using an elaborate
+      system of Polaroid photographs, handwritten notes, and tattoos to track information
+      he won't remember. Carrie-Anne Moss and Joe Pantoliano co-star in the film.
+    director:
+    - 1
+    actor: []
+    gengere:
+    - 2
+    - 3
+- model: films.movie
+  pk: 2
+  fields:
+    name: The Prestige
+    slug: the-prestige
+    image_url: https://i.etsystatic.com/27725708/r/il/e42833/2927140553/il_570xN.2927140553_9u6n.jpg
+    year: 2006
+    avg_rating: null
+    description: "The Prestige is a 2006 psychological thriller film directed by Christopher
+      Nolan, written by Nolan and his brother Jonathan and based on the 1995 novel
+      by Christopher Priest. It follows Robert Angier and Alfred Borden, rival stage
+      magicians in Victorian London who feud over a perfect teleportation trick.\r\n\r\nThe
+      film stars Hugh Jackman as Angier and Christian Bale as Borden. It also stars
+      Scarlett Johansson, Michael Caine, Piper Perabo, Andy Serkis, Rebecca Hall,
+      and David Bowie as Nikola Tesla. The film reunites Nolan with actors Bale and
+      Caine from Batman Begins and returning cinematographer Wally Pfister, production
+      designer Nathan Crowley, and editor Lee Smith."
+    director: []
+    actor: []
+    gengere:
+    - 3
+- model: films.movie
+  pk: 3
+  fields:
+    name: Inception
+    slug: 'null'
+    image_url: null
+    year: 2010
+    avg_rating: null
+    description: "nception is a 2010 science fiction action film] written and directed
+      by Christopher Nolan, who also produced the film with Emma Thomas, his wife.
+      The film stars Leonardo DiCaprio as a professional thief who steals information
+      by infiltrating the subconscious of his targets. He is offered a chance to have
+      his criminal history erased as payment for the implantation of another person's
+      idea into a target's subconscious. The ensemble cast includes Ken Watanabe,
+      Joseph Gordon-Levitt, Marion Cotillard, Elliot Page, Tom Hardy, Dileep Rao,
+      Cillian Murphy, Tom Berenger, and Michael Caine.\r\n\r\nAfter the 2002 completion
+      of Insomnia, Nolan presented to Warner Bros. a written 80-page treatment for
+      a horror film envisioning \"dream stealers,\" based on lucid dreaming. Deciding
+      he needed more experience before tackling a production of this magnitude and
+      complexity, Nolan shelved the project and instead worked on 2005's Batman Begins,
+      2006's The Prestige, and The Dark Knight in 2008. The treatment was revised
+      over 6 months and was purchased by Warner in February 2009. Inception was filmed
+      in six countries, beginning in Tokyo on June 19 and ending in Canada on November
+      22. Its official budget was $160 million, split between Warner Bros. and Legendary.
+      Nolan's reputation and success with The Dark Knight helped secure the film's
+      US$100 million in advertising expenditure."
+    director: []
+    actor: []
+    gengere: []
+- model: films.movie
+  pk: 4
+  fields:
+    name: Man of Steel
+    slug: 'null'
+    image_url: null
+    year: 2013
+    avg_rating: null
+    description: Man of Steel is a 2013 superhero film based on the DC Comics character
+      Superman. Directed by Zack Snyder from a screenplay by David S. Goyer, it is
+      the first installment in the DC Extended Universe (DCEU) and a reboot of the
+      Superman film series, depicting the character's origin story. It stars Henry
+      Cavill in the title role along with Amy Adams, Michael Shannon, Kevin Costner,
+      Diane Lane, Laurence Fishburne, and Russell Crowe. In the film, Clark Kent learns
+      that he is a superpowered alien from the planet Krypton. He assumes the role
+      of mankind's protector as Superman, making the choice to face General Zod and
+      prevent him from destroying humanity.
+    director: []
+    actor: []
+    gengere: []
+- model: films.movie
+  pk: 5
+  fields:
+    name: Interstellar
+    slug: 'null'
+    image_url: null
+    year: 2014
+    avg_rating: null
+    description: "Interstellar is a 2014 epic science fiction film co-written, directed,
+      and produced by Christopher Nolan. It stars Matthew McConaughey, Anne Hathaway,
+      Jessica Chastain, Bill Irwin, Ellen Burstyn, Matt Damon, and Michael Caine.
+      Set in a dystopian future where humanity is struggling to survive, the film
+      follows a group of astronauts who travel through a wormhole near Saturn in search
+      of a new home for mankind.\r\n\r\nBrothers Christopher and Jonathan Nolan wrote
+      the screenplay, which had its origins in a script Jonathan developed in 2007.
+      Caltech theoretical physicist and 2017 Nobel laureate in Physics Kip Thorne
+      was an executive producer, acted as a scientific consultant, and wrote a tie-in
+      book, The Science of Interstellar. Cinematographer Hoyte van Hoytema shot it
+      on 35 mm movie film in the Panavision anamorphic format and IMAX 70 mm. Principal
+      photography began in late 2013 and took place in Alberta, Iceland, and Los Angeles.
+      Interstellar uses extensive practical and miniature effects and the company
+      Double Negative created additional digital effects."
+    director: []
+    actor: []
+    gengere: []
+- model: films.movie
+  pk: 6
+  fields:
+    name: Dunkirk
+    slug: 'null'
+    image_url: null
+    year: 2017
+    avg_rating: null
+    description: "Dunkirk is a 2017 historical war film written, directed and produced
+      by Christopher Nolan that depicts the Dunkirk evacuation of World War II from
+      the perspectives of the land, sea and air. It was produced by Nolan and Emma
+      Thomas. Its ensemble cast includes Fionn Whitehead, Tom Glynn-Carney, Jack Lowden,
+      Harry Styles in his film debut, Aneurin Barnard, James D'Arcy, Barry Keoghan,
+      Kenneth Branagh, Cillian Murphy, Mark Rylance and Tom Hardy.\r\n\r\nDunkirk
+      portrays the evacuation with little dialogue, as Christopher Nolan sought instead
+      to create suspense from cinematography and music. Filming began in May 2016
+      in Dunkirk and ended that September in Los Angeles, when post-production began.
+      Cinematographer Hoyte van Hoytema shot the film on IMAX 65 mm and 65 mm large-format
+      film stock. Dunkirk has extensive practical effects. It employed thousands of
+      extras as well as historic boats from the evacuation, and period aeroplanes."
+    director: []
+    actor: []
+    gengere: []
+- model: films.movie
+  pk: 7
+  fields:
+    name: Tenet
+    slug: 'null'
+    image_url: null
+    year: 2020
+    avg_rating: null
+    description: "Tenet is a 2020 science fiction action thriller film directed and
+      written by Christopher Nolan, who also produced with his wife Emma Thomas. A
+      co-production between the United Kingdom and the United States, it stars John
+      David Washington, Robert Pattinson, Elizabeth Debicki, Dimple Kapadia, Michael
+      Caine, and Kenneth Branagh. The film follows a former CIA agent who learns how
+      to manipulate the flow of time to prevent an attack from the future that threatens
+      to annihilate the present world. Nolan continued his relationship with Warner
+      Bros. and his production company Syncopy for the film's production and distribution.\r\n\r\nNolan
+      took over five years to write the screenplay after deliberating about Tenet's
+      central ideas for over a decade. Pre-production began in late 2018, casting
+      took place in March 2019, and principal photography lasted six months, from
+      May to November, in Denmark, Estonia, India, Italy, Norway, the United Kingdom,
+      and the United States. Cinematographer Hoyte van Hoytema shot on 65 mm film
+      and IMAX. After being delayed three times because of the COVID-19 pandemic,
+      Tenet was released in the United Kingdom on August 26, 2020, and in the United
+      States on September 3, 2020, in IMAX, 35 mm, and 70 mm."
+    director:
+    - 1
+    actor:
+    - 3
+    gengere:
+    - 3
+- model: films.movie
+  pk: 8
+  fields:
+    name: Oppenheimer
+    slug: 'null'
+    image_url: null
+    year: 2023
+    avg_rating: null
+    description: "Oppenheimer is an upcoming biographical film written and directed
+      by Christopher Nolan and starring Cillian Murphy as J. Robert Oppenheimer, the
+      American theoretical physicist credited with being the \"father of the atomic
+      bomb\" for his role in the Manhattan Project—the World War II undertaking that
+      developed the first nuclear weapons. A co-production between the United Kingdom
+      and the United States, the film is based on American Prometheus, a biography
+      written by Kai Bird and Martin J. Sherwin. The supporting cast includes Emily
+      Blunt, Robert Downey Jr., Matt Damon, Rami Malek, Florence Pugh, Benny Safdie,
+      Michael Angarano, Josh Hartnett and Kenneth Branagh. It is a co-production between
+      Universal Pictures, Syncopy Inc. and Atlas Entertainment, with Nolan producing
+      the film alongside Emma Thomas and Charles Roven.\r\n\r\nNolan was announced
+      to write and direct a biographical film about J. Robert Oppenheimer, set during
+      World War II, with Universal Pictures being chosen as the distributor in September
+      2021. Much of the main cast signed on between September 2021 and April 2022.
+      Pre-production was underway by January 2022, with filming beginning in late
+      February 2022 and wrapped that May. It is filmed in a combination of IMAX 65mm
+      and 65mm large-format film including, for the first time, sections in IMAX black
+      and white analog photography. Like his previous works, Nolan extensively used
+      practical effects and minimum computer generated imageries."
+    director: []
+    actor: []
+    gengere: []
+- model: films.movie
+  pk: 9
+  fields:
+    name: The Dark Knight
+    slug: the-dark-knight
+    image_url: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_k4_2qCd3-xEtOSWvW-zjZVtHxaV8Bbaf_Q&usqp=CAU
+    year: 2008
+    avg_rating: null
+    description: "The Dark Knight is a 2008 superhero film directed by Christopher
+      Nolan from a screenplay he co-wrote with his brother Jonathan. Based on the
+      DC Comics superhero, Batman, it is the sequel to Batman Begins (2005) and the
+      second installment in The Dark Knight Trilogy. The plot follows the vigilante
+      Batman, police lieutenant James Gordon, and district attorney Harvey Dent, who
+      form an alliance to dismantle organized crime in Gotham City. Their efforts
+      are derailed by the Joker, an anarchistic mastermind who seeks to test how far
+      Batman will go to save the city from chaos. The ensemble cast includes Christian
+      Bale, Michael Caine, Heath Ledger, Gary Oldman, Aaron Eckhart, Maggie Gyllenhaal,
+      and Morgan Freeman.\r\n\r\nWarner Bros. Pictures prioritized a sequel following
+      the successful reinvention of the Batman film series with Batman Begins. Christopher
+      and Batman Begins co-writer David S. Goyer developed the story elements, making
+      Dent the central protagonist caught up in the battle between Batman and the
+      Joker. In writing the screenplay, the Nolans were influenced by 1980s Batman
+      comics and crime drama films, and sought to continue Batman Begins' heightened
+      sense of realism. From April to November 2007, filming took place with a $185
+      million budget in Chicago and Hong Kong, and on sets in England. The Dark Knight
+      was the first major motion picture to be filmed with high-resolution IMAX cameras.
+      Christopher avoided using computer-generated imagery unless necessary, insisting
+      on practical stunts such as flipping an 18-wheel truck and blowing up a factory."
+    director: []
+    actor: []
+    gengere:
+    - 2
+- model: films.movie
+  pk: 10
+  fields:
+    name: Following
+    slug: 'null'
+    image_url: null
+    year: 1998
+    avg_rating: null
+    description: "Following is a 1998 independent neo-noir crime thriller film written,
+      produced, edited and directed by Christopher Nolan. It tells the story of a
+      young man who follows strangers around the streets of London and is drawn into
+      a criminal underworld when he fails to keep his distance.\r\n\r\nAs Nolan's
+      debut feature, it was designed to be as inexpensive as possible to make. Scenes
+      were heavily rehearsed so that just one or two takes were needed to economise
+      on 16mm film stock, the production's greatest expense, and for which Nolan was
+      paying from his salary. Unable to afford expensive professional lighting equipment,
+      Nolan mostly used available light. Along with writing, directing, and photographing
+      the film, Nolan also helped in editing and production."
+    director: []
+    actor: []
+    gengere:
+    - 2
+- model: films.person
+  pk: 1
+  fields:
+    name: Christopher Nolan
+    slug: christopher-nolan
+    image_url: https://m.media-amazon.com/images/M/MV5BNjE3NDQyOTYyMV5BMl5BanBnXkFtZTcwODcyODU2Mw@@._V1_FMjpg_UX1000_.jpg
+    year: 1970
+    description: "Christopher Edward Nolan CBE (born 30 July 1970) is a British-American
+      filmmaker. Known for his Hollywood blockbusters with complex storytelling, Nolan
+      is considered a leading filmmaker of the 21st century. His films have grossed
+      $5 billion worldwide. The recipient of many accolades, he has been nominated
+      for five Academy Awards, five BAFTA Awards and six Golden Globe Awards. In 2015,
+      he was listed as one of the 100 most influential people in the world by Time,
+      and in 2019, he was appointed Commander of the Order of the British Empire for
+      his contributions to film.\r\n\r\nNolan developed an interest in filmmaking
+      from a young age. After studying English literature at University College London,
+      he made several short films before his feature film debut with Following (1998).
+      Nolan gained international recognition with his second film, Memento (2000),
+      for which he was nominated for the Academy Award for Best Original Screenplay.
+      He transitioned from independent to studio filmmaking with Insomnia (2002),
+      and found further critical and commercial success with The Dark Knight Trilogy
+      (2005–2012), The Prestige (2006) and Inception (2010); the last of these earned
+      Nolan two Oscar nominations—Best Picture and Best Original Screenplay. This
+      was followed by Interstellar (2014), Dunkirk (2017) and Tenet (2020). For Dunkirk,
+      he earned two Academy Award nominations, including his first for Best Director.\r\n\r\nNolan's
+      work regularly feature in the listings of best films of their respective decades.
+      They are typically characterised by epistemology and existentialism. Infused
+      with a metaphysical outlook, they explore ethics, the construction of time,
+      and the malleable nature of memory and personal identity. His work is permeated
+      with mathematically inspired images and concepts, unconventional narrative structures,
+      practical special effects, experimental soundscapes, large-format film photography,
+      and materialistic perspectives. He has co-written several of his films with
+      his brother Jonathan, and runs the production company Syncopy Inc. with his
+      wife Emma Thomas."
+- model: films.person
+  pk: 2
+  fields:
+    name: Neil Breen
+    slug: neil-breen
+    image_url: https://images.mubicdn.net/images/cast_member/476348/cache-128936-1591255023/image-w856.jpg?size=800x
+    year: 1958
+    description: "Neil Breen (born November 23, 1958) is an American filmmaker and
+      actor.[1] Since 2005, he has written, directed, independently produced, and
+      starred in six theatrical feature films. Breen's films have garnered a cult
+      following for their low-budget production values, acting, writing, and editing.[2][3]\r\n\r\nLife
+      and career\r\nNeil Breen grew up on the East Coast of the United States, and
+      developed an interest in film and filmmaking at an early age. He studied architecture
+      and initially became a licensed architect in California.[4] He gained a small
+      following after releasing his first film, Double Down. In the years that followed,
+      Breen continued working as an architect as a means to finance his next film:
+      I Am Here.... Now. This second feature proved to be a breakout hit, reintroducing
+      familiar motifs and garnering Breen \"a lot of attention.\" Since then, he has
+      established a reputation as a cult amateur filmmaker.[4]"
+- model: films.person
+  pk: 3
+  fields:
+    name: John David Washington
+    slug: john-david-washington
+    image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/JohnDavidWashington.jpg/220px-JohnDavidWashington.jpg
+    year: 1984
+    description: "John David Washington (born July 28, 1984) is an American actor
+      and former professional football player. He played college football at Morehouse
+      College and signed with the St. Louis Rams as an undrafted free agent in 2006.
+      Professionally, Washington spent four years as a running back for the United
+      Football League's Sacramento Mountain Lions.\r\n\r\nWashington shifted to an
+      acting career like his father, Denzel Washington, and mother, Pauletta. He was
+      part of the main cast of the HBO comedy series Ballers (2015–2019). His breakthrough
+      came playing Ron Stallworth in Spike Lee's 2018 crime film BlacKkKlansman, for
+      which he received both Golden Globe and Screen Actors Guild Award nominations.
+      In 2020, he starred in Christopher Nolan's science fiction action-thriller film
+      Tenet, for which he won the Saturn Award for Best Actor. Washington has since
+      starred in a 2022 Broadway revival of the play The Piano Lesson."
+- model: films.genere
+  pk: 2
+  fields:
+    name: Thriller
+- model: films.genere
+  pk: 3
+  fields:
+    name: Drama
+- model: films.comment
+  pk: 1
+  fields:
+    movie: 2
+    author: ja
+    text: kik
+    rating: 6
+    created_at: 2023-05-08 20:55:26.255902+00:00
+- model: films.comment
+  pk: 2
+  fields:
+    movie: 2
+    author: Anonym
+    text: ''
+    rating: null
+    created_at: 2023-05-08 20:55:41.721388+00:00
+- model: films.comment
+  pk: 3
+  fields:
+    movie: 2
+    author: Vojta
+    text: "Nejpepší\U0001F602\U0001F923"
+    rating: 120
+    created_at: 2023-05-08 20:56:22.829723+00:00
