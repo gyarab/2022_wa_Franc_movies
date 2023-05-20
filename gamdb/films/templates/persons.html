@@ -1,0 +1,30 @@
+{% extends 'main.html' %}
+
+{% block content %}
+<h1 class="mt-5 mb-1">complete list of our {{ type }}</h1>
+<div class="row mb-4">
+    <hr>
+    
+</div>
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+    {% for person in persons %}
+    <div class="col">
+        <div class="card rounded">
+            <div class="img-container bg-secondary">
+                <img src="{% if person.image_url %}{{person.image_url}}{% else %}https://loremflickr.com/300/150{% endif %}" class="" alt="{{ person.name }} poster">        
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">{{ person.name }} ({{ person.year }})</h5>
+                <p class="card-text text-muted">{{ person.description }}</p>
+                <div class="text-end">
+
+                </div>
+            </div>
+            <div class="card-footer text-end">
+                <a href="{% url title person.slug %}" class="btn btn-primary text-end">Details</a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

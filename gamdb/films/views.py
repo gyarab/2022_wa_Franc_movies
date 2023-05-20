@@ -1,6 +1,7 @@
 from django.shortcuts import render
+from django.db.models import Count
 from django.http import HttpResponse
-from .models import Movie, Director, Actor, Genere, Comment
+from .models import Movie, Genere, Comment, Person
 from django.db.models import Q
 from .forms import CommentForm
 
@@ -8,8 +9,8 @@ from .forms import CommentForm
 def homepage(request):
     context = {
         'movies': Movie.objects.all(),
-        'actors': Actor.objects.all(),
-        'directors': Director.objects.all(),
+        'actors':Person.objects.annotate(num_connections=Count('acted')).filter(num_connections__gt=0),
+        'directors': Person.objects.annotate(num_connections=Count('directed')).filter(num_connections__gt=0),
         'generes': Genere.objects.all()
     }
     return render(request, 'homepage.html', context)
@@ -57,24 +58,28 @@ def movie(request, id):
     return render(request,'movie.html', context)
 def directors(request):
     context = {
-        'title' : "Režizéři",
-        'directors': Director.objects.all(),
+        'title' : "director",
+        'type' : "directors",
+        'persons': Person.objects.annotate(num_connections=Count('directed')).filter(num_connections__gt=0),
     }
-    return render(request, 'directors.html', context)
-def director(request, id):
+    return render(request, 'persons.html', context)
+def director(request, slug):
     context = {
-        "director" : Director.objects.get(id=id),
+        "person" : Person.objects.get(slug=slug),
+        type: "director"
     }
-    return render(request, 'director.html', context)
+    return render(request, 'person.html', context)
 def actors(request):
     context = {
-        'actors': Actor.objects.all(),
+        'title' : "actor",
+        'type' : "actors",
+        'persons': Person.objects.annotate(num_connections=Count('acted')).filter(num_connections__gt=0),
     }
-    return render(request, 'actors.html', context)
-def actor(request, id):
+    return render(request, 'persons.html', context)
+def actor(request, slug):
     context = {
-        "actor" : Actor.objects.get(id=id),
+        "person" : Person.objects.get(slug=slug),
     }
-    return render(request, 'actor.html', context)
+    return render(request, 'person.html', context)
 
     #return HttpResponse("<h1>Ahoj</h1>")

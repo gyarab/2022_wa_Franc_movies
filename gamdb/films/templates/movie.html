@@ -14,24 +14,39 @@
     {% for g in movie.gengere.all %}
                     <span class="badge rounded-pill bg-primary">{{ g.name }}</span>
                 {% endfor %}
-<p class="mt-3">{{ movie.description|safe }}</p>
-</div>
-</div>
-
-
-
-<form action="" method="post">
-    {% csrf_token %}
-    {{ form.as_p }}
-    <input type="submit" value="Odeslat" />
-</form>
-
-{% for comment in comments %}
-<p>
-    <strong>{{ comment.author }}</strong>, {{ comment.created_at|date:"j. n. Y H:i" }}<br />
-    {% if comment.rating %}{{ comment.rating }}%<br />{% endif %}
-    {{ comment.text }}
-</p>
-<hr />
+<p class="mt-3">{{ movie.director|safe }}</p>
+<h2 class="fs-5">Directors</h2>
+{% for d in movie.director.all %}
+                    <span class="badge rounded-pill bg-danger"><a class="text-light text-decoration-none" href="{% url 'director' d.slug %}">{{ d.name }}</a></span>
 {% endfor %}
+<h2 class="fs-5">Actors</h2>
+{% for a in movie.actor.all %}
+                    <span class="badge rounded-pill bg-success"><a class="text-light text-decoration-none" href="{% url 'actor' a.slug %}">{{ a.name }}</a></span>
+{% endfor %}
+</div>
+</div>
+
+
+
+<div class="row row-cools-1 row-cools-lg-2">
+    <div class="col col-12 col-lg-5">
+        <h3>Comment this movie</h3>
+            <form class="" action="" method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <input type="submit" class="btn btn-primary" value="Comment" />
+        </form>
+    </div>
+    <div class="col col-12 col-lg-5 mt-5">
+        {% for comment in comments %}
+        <p>
+        <strong>{{ comment.author }}</strong>, {{ comment.created_at|date:"j. n. Y H:i" }}<br />
+        {% if comment.rating %}{{ comment.rating }}%<br />{% endif %}
+        {{ comment.text }}
+        </p>
+        <hr />
+{% endfor %}
+    </div>
+</div>
+
 {% endblock content %}

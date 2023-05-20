@@ -1,0 +1,20 @@
+{% extends 'main.html' %}
+
+{% block title %}
+    {{director.name}} | {{ block.super }}
+{% endblock %}
+
+{% block content %}
+<div class="row row-cols-1 row-cols-md-2 mt-5">
+    <div class="col velkyNahled">
+        <img src="{% if person.image_url %}{{person.image_url}}{% else %}https://place-hold.it/180x100/{% endif %}" class="float-none float-md-end" alt="Card image cap">
+    </div>
+    <div class="col">
+        <h1>{{person.name}}</h1>
+        {% for g in person.gengere.all %}
+                        <span class="badge rounded-pill bg-primary">{{ g.name }}</span>
+                    {% endfor %}
+    <p class="mt-3">{{ person.description|safe }}</p>
+    </div>
+    </div>
+{% endblock content %}

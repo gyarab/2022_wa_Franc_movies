@@ -19,11 +19,11 @@ from films.views import homepage, directors, movie, movies, director, actor, act
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', homepage),
+    path('', homepage, name="home"),
     path('movies/', movies, name="movies"),
     path('movie/<int:id>', movie, name="movie"),
-    path('directors', directors, name="directors"),
-    path('director/<int:id>', director, name="director"),
-    path('actors', actors, name="actors"),
-    path('actor/<int:id>', actor, name="actor"),
+    path('directors/', directors, name="directors"),
+    path('director/<slug:slug>/', director, name="director"),
+    path('actors/', actors, name="actors"),
+    path('actor/<slug:slug>', actor, name="actor"),
 ]

@@ -7,7 +7,8 @@ class Movie(models.Model):
     year = models.IntegerField(blank=True, null=True)
     avg_rating = models.FloatField(blank=True, null=True)
     description = models.TextField(blank=True)
-    director = models.ForeignKey('Director', blank=True, null=True, on_delete=models.SET_NULL)
+    director = models.ManyToManyField('Person', blank=True, null=True, related_name='directed')
+    actor = models.ManyToManyField('Person', blank=True, null=True, related_name='acted')
     gengere = models.ManyToManyField('Genere', blank=True, null=True)   
     def __str__(self):
         return f"{self.name} ({self.year})"
@@ -17,7 +18,8 @@ class Movie(models.Model):
         # for i in self.genres.all():
         #     out += f"{i.name}, "
         # return out
-class Director(models.Model):
+
+class Person(models.Model):
     name = models.CharField(max_length=200)
     slug = models.SlugField()
     image_url = models.CharField(max_length=255, blank=True, null=True)
@@ -29,16 +31,6 @@ class Genere(models.Model):
     name = models.CharField(max_length=200)
     def __str__(self):
         return self.name
-
-class Actor(models.Model):
-    name = models.CharField(max_length=255)
-    birth_year = models.IntegerField(blank=True, null=True)
-    slug = models.SlugField()
-    photo_url = models.CharField(max_length=255, blank=True, null=True)
-    description = models.TextField(blank=True, null=True)
-
-    def __str__(self):
-        return f"{self.name} ({self.birth_year})"
 class Comment(models.Model):
     movie = models.ForeignKey(Movie, on_delete=models.CASCADE) # Po smazání filmu odstran i komentar
     author = models.CharField(max_length=255, blank=True)
