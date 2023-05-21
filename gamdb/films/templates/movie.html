@@ -41,7 +41,7 @@
         {% for comment in comments %}
         <p>
         <strong>{{ comment.author }}</strong>, {{ comment.created_at|date:"j. n. Y H:i" }}<br />
-        {% if comment.rating %}{{ comment.rating }}%<br />{% endif %}
+        {% if comment.rating == 'T' %} <img src="https://cdn-icons-png.flaticon.com/512/1652/1652127.png" height="25" > {% else %}<img src="https://cdn-icons-png.flaticon.com/512/1057/1057356.png" height="25" >{% endif %}<br />
         {{ comment.text }}
         </p>
         <hr />

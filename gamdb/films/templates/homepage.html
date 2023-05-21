@@ -1,19 +1,65 @@
 {% extends 'main.html' %}
 
 {% block content %}
-<h1 class="mt-5 fs-0">Rate recent movies</h1>
+<h1 class="mt-5 fs-0">Best rated movies</h1>
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+    {% for movie in bestMovies %}
+    <div class="col">
+        <div class="card rounded">
+            <div class="img-container bg-secondary">
+                <img src="{% if movie.image_url %}{{movie.image_url}}{% else %}https://loremflickr.com/300/150{% endif %}" class="" alt="{{ movie.name }} poster">        
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">{{ movie.name }} ({{ movie.year }})</h5>
+                <h6>{% if movie.rating %} {{ movie.rating }}%{% else %}
+                    Give the first rating
+                    {% endif %}
 
-<h2>Filmy</h2>
-<ul>
-    {% for movie in movies %}
-        <li>{{movie.name}}</li>
-    {% endfor %}
-</ul>
+                </h6>
+                {% for g in movie.gengere.all %}
+                    <span class="badge rounded-pill bg-primary">{{ g.name }}</span>
+                {% endfor %}
+                <p class="card-text text-muted">{{ movie.description }}</p>
+                <div class="text-end">
 
-<h2>Reziseri</h2>
-<ul>
-    {% for director in directors %}
-        <li>{{director.name}}</li>
+                </div>
+            </div>
+            <div class="card-footer text-end">
+                <a href="{% url 'movie' movie.id %}" class="btn btn-primary text-end">Details</a>
+            </div>
+        </div>
+    </div>
     {% endfor %}
-</ul>
+</div>
+
+<h1 class="mt-5 fs-0">Worst rated movies</h1>
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+    {% for movie in worstMovies %}
+    <div class="col">
+        <div class="card rounded">
+            <div class="img-container bg-secondary">
+                <img src="{% if movie.image_url %}{{movie.image_url}}{% else %}https://loremflickr.com/300/150{% endif %}" class="" alt="{{ movie.name }} poster">        
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">{{ movie.name }} ({{ movie.year }})</h5>
+                <h6>{% if movie.rating %} {{ movie.rating }}%{% else %}
+                    Give the first rating
+                    {% endif %}
+
+                </h6>
+                {% for g in movie.gengere.all %}
+                    <span class="badge rounded-pill bg-primary">{{ g.name }}</span>
+                {% endfor %}
+                <p class="card-text text-muted">{{ movie.description }}</p>
+                <div class="text-end">
+
+                </div>
+            </div>
+            <div class="card-footer text-end">
+                <a href="{% url 'movie' movie.id %}" class="btn btn-primary text-end">Details</a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
 {% endblock %}

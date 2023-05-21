@@ -22,6 +22,11 @@
             </div>
             <div class="card-body">
                 <h5 class="card-title">{{ movie.name }} ({{ movie.year }})</h5>
+                <h6>{% if movie.rating %} {{ movie.rating }}%{% else %}
+                    Give the first rating
+                    {% endif %}
+
+                </h6>
                 {% for g in movie.gengere.all %}
                     <span class="badge rounded-pill bg-primary">{{ g.name }}</span>
                 {% endfor %}

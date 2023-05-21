@@ -8,7 +8,8 @@ from .forms import CommentForm
 # Create your views here.
 def homepage(request):
     context = {
-        'movies': Movie.objects.all(),
+        'bestMovies': Movie.objects.all().exclude(rating__isnull=True).order_by('-rating')[:3],
+        'worstMovies': Movie.objects.all().exclude(rating__isnull=True).order_by('rating')[:3],
         'actors':Person.objects.annotate(num_connections=Count('acted')).filter(num_connections__gt=0),
         'directors': Person.objects.annotate(num_connections=Count('directed')).filter(num_connections__gt=0),
         'generes': Genere.objects.all()
@@ -27,8 +28,7 @@ def movies(request):
         'movies': movie_querrystring,
         'genres': Genere.objects.all(),
         'genre' : genre,
-        'search': search,
-    }
+        'search': search,    }
     return render(request, 'movies.html', context)
 def movie(request, id):
     m = Movie.objects.get(id=id)
@@ -47,6 +47,13 @@ def movie(request, id):
             if not c.author:
                 c.author = 'Anonym'
             c.save()
+            # Přidej statistiku do filmu
+            if f.cleaned_data.get('rating') == 'T':
+                m.potato += 1
+            if f.cleaned_data.get('rating') == 'F':
+                m.frie += 1
+            m.rating = 100 * m.frie/(m.frie+m.potato)
+            m.save()
             # nastavit prazdny form
             f = CommentForm()
 
@@ -81,5 +88,4 @@ def actor(request, slug):
         "person" : Person.objects.get(slug=slug),
     }
     return render(request, 'person.html', context)
-
     #return HttpResponse("<h1>Ahoj</h1>")

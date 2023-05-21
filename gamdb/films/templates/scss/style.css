@@ -25,3 +25,30 @@
   max-width: 320px;
   width: 100%;
 }
+
+.radio-choice-T{
+  -webkit-appearance: none;
+	width: 4em;
+	height: 4em;
+	border: 2px solid grey;
+	border-radius: 0.3em;
+  background: url('https://cdn-icons-png.flaticon.com/512/1652/1652127.png');
+  background-size: 100%;
+
+  background-repeat: no-repeat;
+}
+.radio-choice-F{
+  -webkit-appearance: none;
+	width: 4em;
+	height: 4em;
+	border: 2px solid grey;
+	border-radius: 0.3em;
+  background: url('https://cdn-icons-png.flaticon.com/512/1057/1057356.png');
+  background-size: 100%;
+
+  background-repeat: no-repeat;
+}
+input[type="radio"]:checked {
+  
+  border: 3px solid #087F8C;
+}

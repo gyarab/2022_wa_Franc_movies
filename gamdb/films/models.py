@@ -5,8 +5,10 @@ class Movie(models.Model):
     slug = models.SlugField()
     image_url = models.CharField(max_length=255, blank=True, null=True)
     year = models.IntegerField(blank=True, null=True)
-    avg_rating = models.FloatField(blank=True, null=True)
+    frie = models.IntegerField(default=0)
+    potato = models.IntegerField(default=0)
     description = models.TextField(blank=True)
+    rating = models.IntegerField(blank=True, null=True)
     director = models.ManyToManyField('Person', blank=True, null=True, related_name='directed')
     actor = models.ManyToManyField('Person', blank=True, null=True, related_name='acted')
     gengere = models.ManyToManyField('Genere', blank=True, null=True)   
@@ -35,5 +37,5 @@ class Comment(models.Model):
     movie = models.ForeignKey(Movie, on_delete=models.CASCADE) # Po smazání filmu odstran i komentar
     author = models.CharField(max_length=255, blank=True)
     text = models.TextField(blank=True)
-    rating = models.IntegerField(null=True, blank = True)
+    rating = models.CharField(max_length=2, blank=False, default='T')
     created_at = models.DateTimeField(auto_now_add=True)
