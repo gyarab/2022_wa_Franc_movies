@@ -179,7 +179,7 @@
     description: "Oppenheimer is an upcoming biographical film written and directed
       by Christopher Nolan and starring Cillian Murphy as J. Robert Oppenheimer, the
       American theoretical physicist credited with being the \"father of the atomic
-      bomb\" for his role in the Manhattan Project—the World War II undertaking that
+      bomb\" for his role in the Manhattan Projectthe World War II undertaking that
       developed the first nuclear weapons. A co-production between the United Kingdom
       and the United States, the film is based on American Prometheus, a biography
       written by Kai Bird and Martin J. Sherwin. The supporting cast includes Emily
@@ -257,7 +257,7 @@
   fields:
     name: Christopher Nolan
     slug: christopher-nolan
-    image_url: https://m.media-amazon.com/images/M/MV5BNjE3NDQyOTYyMV5BMl5BanBnXkFtZTcwODcyODU2Mw@@._V1_FMjpg_UX1000_.jpg
+    image_url: null
     year: 1970
     description: "Christopher Edward Nolan CBE (born 30 July 1970) is a British-American
       filmmaker. Known for his Hollywood blockbusters with complex storytelling, Nolan
@@ -273,8 +273,8 @@
       for which he was nominated for the Academy Award for Best Original Screenplay.
       He transitioned from independent to studio filmmaking with Insomnia (2002),
       and found further critical and commercial success with The Dark Knight Trilogy
-      (2005–2012), The Prestige (2006) and Inception (2010); the last of these earned
-      Nolan two Oscar nominations—Best Picture and Best Original Screenplay. This
+      (20052012), The Prestige (2006) and Inception (2010); the last of these earned
+      Nolan two Oscar nominationsBest Picture and Best Original Screenplay. This
       was followed by Interstellar (2014), Dunkirk (2017) and Tenet (2020). For Dunkirk,
       he earned two Academy Award nominations, including his first for Best Director.\r\n\r\nNolan's
       work regularly feature in the listings of best films of their respective decades.
@@ -318,7 +318,7 @@
       Professionally, Washington spent four years as a running back for the United
       Football League's Sacramento Mountain Lions.\r\n\r\nWashington shifted to an
       acting career like his father, Denzel Washington, and mother, Pauletta. He was
-      part of the main cast of the HBO comedy series Ballers (2015–2019). His breakthrough
+      part of the main cast of the HBO comedy series Ballers (20152019). His breakthrough
       came playing Ron Stallworth in Spike Lee's 2018 crime film BlacKkKlansman, for
       which he received both Golden Globe and Screen Actors Guild Award nominations.
       In 2020, he starred in Christopher Nolan's science fiction action-thriller film
@@ -353,6 +353,6 @@
   fields:
     movie: 2
     author: Vojta
-    text: "Nejpepší\U0001F602\U0001F923"
+    text: "Nejpep\U0001F602\U0001F923"
     rating: 120
     created_at: 2023-05-08 20:56:22.829723+00:00
