@@ -1,4 +1,4 @@
-# How to install
+# How to use and install
 
 ## Activate your python enviroment
 
