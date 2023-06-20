@@ -1,0 +1,621 @@
+- model: films.movie
+  pk: 1
+  fields:
+    name: Memento
+    slug: memento
+    image_url: https://www.filmfracture.com/wp-content/uploads/2019/05/Memento-1-1050x532.jpg
+    year: 2000
+    frie: 0
+    potato: 0
+    description: Memento is a 2000 American neo-noir psychological thriller film written
+      and directed by Christopher Nolan, based on the short story "Memento Mori" by
+      his brother Jonathan Nolan, which was later published in 2001.[5] The film stars
+      Guy Pearce as Leonard Shelby, a man who suffers from anterograde amnesia, resulting
+      in short-term memory loss and the inability to form new memories. He searches
+      for the people who attacked him, raped and killed his wife, using an elaborate
+      system of Polaroid photographs, handwritten notes, and tattoos to track information
+      he won't remember. Carrie-Anne Moss and Joe Pantoliano co-star in the film.
+    rating: null
+    director:
+    - 1
+    actor: []
+    gengere:
+    - 2
+    - 3
+- model: films.movie
+  pk: 2
+  fields:
+    name: The Prestige
+    slug: the-prestige
+    image_url: https://i.etsystatic.com/27725708/r/il/e42833/2927140553/il_570xN.2927140553_9u6n.jpg
+    year: 2006
+    frie: 3
+    potato: 1
+    description: "The Prestige is a 2006 psychological thriller film directed by Christopher
+      Nolan, written by Nolan and his brother Jonathan and based on the 1995 novel
+      by Christopher Priest. It follows Robert Angier and Alfred Borden, rival stage
+      magicians in Victorian London who feud over a perfect teleportation trick.\r\n\r\nThe
+      film stars Hugh Jackman as Angier and Christian Bale as Borden. It also stars
+      Scarlett Johansson, Michael Caine, Piper Perabo, Andy Serkis, Rebecca Hall,
+      and David Bowie as Nikola Tesla. The film reunites Nolan with actors Bale and
+      Caine from Batman Begins and returning cinematographer Wally Pfister, production
+      designer Nathan Crowley, and editor Lee Smith."
+    rating: 75
+    director: []
+    actor: []
+    gengere:
+    - 3
+- model: films.movie
+  pk: 3
+  fields:
+    name: Inception
+    slug: 'null'
+    image_url: https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_FMjpg_UX1000_.jpg
+    year: 2010
+    frie: 1
+    potato: 0
+    description: "nception is a 2010 science fiction action film] written and directed
+      by Christopher Nolan, who also produced the film with Emma Thomas, his wife.
+      The film stars Leonardo DiCaprio as a professional thief who steals information
+      by infiltrating the subconscious of his targets. He is offered a chance to have
+      his criminal history erased as payment for the implantation of another person's
+      idea into a target's subconscious. The ensemble cast includes Ken Watanabe,
+      Joseph Gordon-Levitt, Marion Cotillard, Elliot Page, Tom Hardy, Dileep Rao,
+      Cillian Murphy, Tom Berenger, and Michael Caine.\r\n\r\nAfter the 2002 completion
+      of Insomnia, Nolan presented to Warner Bros. a written 80-page treatment for
+      a horror film envisioning \"dream stealers,\" based on lucid dreaming. Deciding
+      he needed more experience before tackling a production of this magnitude and
+      complexity, Nolan shelved the project and instead worked on 2005's Batman Begins,
+      2006's The Prestige, and The Dark Knight in 2008. The treatment was revised
+      over 6 months and was purchased by Warner in February 2009. Inception was filmed
+      in six countries, beginning in Tokyo on June 19 and ending in Canada on November
+      22. Its official budget was $160 million, split between Warner Bros. and Legendary.
+      Nolan's reputation and success with The Dark Knight helped secure the film's
+      US$100 million in advertising expenditure."
+    rating: 100
+    director:
+    - 1
+    actor:
+    - 4
+    gengere: []
+- model: films.movie
+  pk: 4
+  fields:
+    name: Man of Steel
+    slug: 'null'
+    image_url: https://m.media-amazon.com/images/M/MV5BMTk5ODk1NDkxMF5BMl5BanBnXkFtZTcwNTA5OTY0OQ@@._V1_.jpg
+    year: 2013
+    frie: 0
+    potato: 0
+    description: Man of Steel is a 2013 superhero film based on the DC Comics character
+      Superman. Directed by Zack Snyder from a screenplay by David S. Goyer, it is
+      the first installment in the DC Extended Universe (DCEU) and a reboot of the
+      Superman film series, depicting the character's origin story. It stars Henry
+      Cavill in the title role along with Amy Adams, Michael Shannon, Kevin Costner,
+      Diane Lane, Laurence Fishburne, and Russell Crowe. In the film, Clark Kent learns
+      that he is a superpowered alien from the planet Krypton. He assumes the role
+      of mankind's protector as Superman, making the choice to face General Zod and
+      prevent him from destroying humanity.
+    rating: null
+    director:
+    - 1
+    actor:
+    - 5
+    gengere:
+    - 4
+    - 5
+- model: films.movie
+  pk: 5
+  fields:
+    name: Interstellar
+    slug: 'null'
+    image_url: https://image.pmgstatic.com/cache/resized/w420/files/images/film/posters/158/991/158991267_b07f3e.jpg
+    year: 2014
+    frie: 1
+    potato: 0
+    description: "Interstellar is a 2014 epic science fiction film co-written, directed,
+      and produced by Christopher Nolan. It stars Matthew McConaughey, Anne Hathaway,
+      Jessica Chastain, Bill Irwin, Ellen Burstyn, Matt Damon, and Michael Caine.
+      Set in a dystopian future where humanity is struggling to survive, the film
+      follows a group of astronauts who travel through a wormhole near Saturn in search
+      of a new home for mankind.\r\n\r\nBrothers Christopher and Jonathan Nolan wrote
+      the screenplay, which had its origins in a script Jonathan developed in 2007.
+      Caltech theoretical physicist and 2017 Nobel laureate in Physics Kip Thorne
+      was an executive producer, acted as a scientific consultant, and wrote a tie-in
+      book, The Science of Interstellar. Cinematographer Hoyte van Hoytema shot it
+      on 35 mm movie film in the Panavision anamorphic format and IMAX 70 mm. Principal
+      photography began in late 2013 and took place in Alberta, Iceland, and Los Angeles.
+      Interstellar uses extensive practical and miniature effects and the company
+      Double Negative created additional digital effects."
+    rating: 100
+    director:
+    - 1
+    actor:
+    - 6
+    gengere:
+    - 3
+    - 6
+- model: films.movie
+  pk: 6
+  fields:
+    name: Dunkirk
+    slug: 'null'
+    image_url: https://m.media-amazon.com/images/M/MV5BN2YyZjQ0NTEtNzU5MS00NGZkLTg0MTEtYzJmMWY3MWRhZjM2XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_.jpg
+    year: 2017
+    frie: 0
+    potato: 0
+    description: "Dunkirk is a 2017 historical war film written, directed and produced
+      by Christopher Nolan that depicts the Dunkirk evacuation of World War II from
+      the perspectives of the land, sea and air. It was produced by Nolan and Emma
+      Thomas. Its ensemble cast includes Fionn Whitehead, Tom Glynn-Carney, Jack Lowden,
+      Harry Styles in his film debut, Aneurin Barnard, James D'Arcy, Barry Keoghan,
+      Kenneth Branagh, Cillian Murphy, Mark Rylance and Tom Hardy.\r\n\r\nDunkirk
+      portrays the evacuation with little dialogue, as Christopher Nolan sought instead
+      to create suspense from cinematography and music. Filming began in May 2016
+      in Dunkirk and ended that September in Los Angeles, when post-production began.
+      Cinematographer Hoyte van Hoytema shot the film on IMAX 65 mm and 65 mm large-format
+      film stock. Dunkirk has extensive practical effects. It employed thousands of
+      extras as well as historic boats from the evacuation, and period aeroplanes."
+    rating: null
+    director:
+    - 1
+    actor:
+    - 7
+    gengere: []
+- model: films.movie
+  pk: 7
+  fields:
+    name: Tenet
+    slug: 'null'
+    image_url: https://image.pmgstatic.com/cache/resized/w420/files/images/film/posters/164/603/164603441_a4f32c.jpg
+    year: 2020
+    frie: 4
+    potato: 2
+    description: "Tenet is a 2020 science fiction action thriller film directed and
+      written by Christopher Nolan, who also produced with his wife Emma Thomas. A
+      co-production between the United Kingdom and the United States, it stars John
+      David Washington, Robert Pattinson, Elizabeth Debicki, Dimple Kapadia, Michael
+      Caine, and Kenneth Branagh. The film follows a former CIA agent who learns how
+      to manipulate the flow of time to prevent an attack from the future that threatens
+      to annihilate the present world. Nolan continued his relationship with Warner
+      Bros. and his production company Syncopy for the film's production and distribution.\r\n\r\nNolan
+      took over five years to write the screenplay after deliberating about Tenet's
+      central ideas for over a decade. Pre-production began in late 2018, casting
+      took place in March 2019, and principal photography lasted six months, from
+      May to November, in Denmark, Estonia, India, Italy, Norway, the United Kingdom,
+      and the United States. Cinematographer Hoyte van Hoytema shot on 65 mm film
+      and IMAX. After being delayed three times because of the COVID-19 pandemic,
+      Tenet was released in the United Kingdom on August 26, 2020, and in the United
+      States on September 3, 2020, in IMAX, 35 mm, and 70 mm."
+    rating: 66
+    director:
+    - 1
+    actor:
+    - 3
+    gengere:
+    - 3
+- model: films.movie
+  pk: 8
+  fields:
+    name: Oppenheimer
+    slug: 'null'
+    image_url: null
+    year: 2023
+    frie: 0
+    potato: 0
+    description: "Oppenheimer is an upcoming biographical film written and directed
+      by Christopher Nolan and starring Cillian Murphy as J. Robert Oppenheimer, the
+      American theoretical physicist credited with being the \"father of the atomic
+      bomb\" for his role in the Manhattan Projectthe World War II undertaking that
+      developed the first nuclear weapons. A co-production between the United Kingdom
+      and the United States, the film is based on American Prometheus, a biography
+      written by Kai Bird and Martin J. Sherwin. The supporting cast includes Emily
+      Blunt, Robert Downey Jr., Matt Damon, Rami Malek, Florence Pugh, Benny Safdie,
+      Michael Angarano, Josh Hartnett and Kenneth Branagh. It is a co-production between
+      Universal Pictures, Syncopy Inc. and Atlas Entertainment, with Nolan producing
+      the film alongside Emma Thomas and Charles Roven.\r\n\r\nNolan was announced
+      to write and direct a biographical film about J. Robert Oppenheimer, set during
+      World War II, with Universal Pictures being chosen as the distributor in September
+      2021. Much of the main cast signed on between September 2021 and April 2022.
+      Pre-production was underway by January 2022, with filming beginning in late
+      February 2022 and wrapped that May. It is filmed in a combination of IMAX 65mm
+      and 65mm large-format film including, for the first time, sections in IMAX black
+      and white analog photography. Like his previous works, Nolan extensively used
+      practical effects and minimum computer generated imageries."
+    rating: null
+    director: []
+    actor: []
+    gengere: []
+- model: films.movie
+  pk: 9
+  fields:
+    name: The Dark Knight
+    slug: the-dark-knight
+    image_url: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_k4_2qCd3-xEtOSWvW-zjZVtHxaV8Bbaf_Q&usqp=CAU
+    year: 2008
+    frie: 0
+    potato: 0
+    description: "The Dark Knight is a 2008 superhero film directed by Christopher
+      Nolan from a screenplay he co-wrote with his brother Jonathan. Based on the
+      DC Comics superhero, Batman, it is the sequel to Batman Begins (2005) and the
+      second installment in The Dark Knight Trilogy. The plot follows the vigilante
+      Batman, police lieutenant James Gordon, and district attorney Harvey Dent, who
+      form an alliance to dismantle organized crime in Gotham City. Their efforts
+      are derailed by the Joker, an anarchistic mastermind who seeks to test how far
+      Batman will go to save the city from chaos. The ensemble cast includes Christian
+      Bale, Michael Caine, Heath Ledger, Gary Oldman, Aaron Eckhart, Maggie Gyllenhaal,
+      and Morgan Freeman.\r\n\r\nWarner Bros. Pictures prioritized a sequel following
+      the successful reinvention of the Batman film series with Batman Begins. Christopher
+      and Batman Begins co-writer David S. Goyer developed the story elements, making
+      Dent the central protagonist caught up in the battle between Batman and the
+      Joker. In writing the screenplay, the Nolans were influenced by 1980s Batman
+      comics and crime drama films, and sought to continue Batman Begins' heightened
+      sense of realism. From April to November 2007, filming took place with a $185
+      million budget in Chicago and Hong Kong, and on sets in England. The Dark Knight
+      was the first major motion picture to be filmed with high-resolution IMAX cameras.
+      Christopher avoided using computer-generated imagery unless necessary, insisting
+      on practical stunts such as flipping an 18-wheel truck and blowing up a factory."
+    rating: null
+    director: []
+    actor: []
+    gengere:
+    - 2
+- model: films.movie
+  pk: 10
+  fields:
+    name: Following
+    slug: 'null'
+    image_url: null
+    year: 1998
+    frie: 0
+    potato: 0
+    description: "Following is a 1998 independent neo-noir crime thriller film written,
+      produced, edited and directed by Christopher Nolan. It tells the story of a
+      young man who follows strangers around the streets of London and is drawn into
+      a criminal underworld when he fails to keep his distance.\r\n\r\nAs Nolan's
+      debut feature, it was designed to be as inexpensive as possible to make. Scenes
+      were heavily rehearsed so that just one or two takes were needed to economise
+      on 16mm film stock, the production's greatest expense, and for which Nolan was
+      paying from his salary. Unable to afford expensive professional lighting equipment,
+      Nolan mostly used available light. Along with writing, directing, and photographing
+      the film, Nolan also helped in editing and production."
+    rating: null
+    director: []
+    actor: []
+    gengere:
+    - 2
+- model: films.movie
+  pk: 11
+  fields:
+    name: Fateful Findings
+    slug: fateful-findings
+    image_url: https://upload.wikimedia.org/wikipedia/en/2/22/Fateful-findings-film-cover.JPG
+    year: 2012
+    frie: 0
+    potato: 1
+    description: "Fateful Findings is a 2012 American independent science fiction
+      film directed, written, produced, edited by, and starring Neil Breen,[1] who
+      was also in charge of production design, set decoration, makeup, sound editing,
+      catering, and casting. The film was screened on December 8, 2012, at the invite-only
+      Butt-Numb-A-Thon, had a public festival debut on May 23, 2013, at the Seattle
+      International Film Festival,[2] and was released to theaters in early 2014.[3]\r\n\r\nUpon
+      release, it was declared one of the \"worst films ever made\" and quickly gained
+      a cult following.[4]\r\n\r\nAmong other things, viewers cite the film's cryptic
+      and incomprehensible plot, poor production values, overt political messages,
+      stilted dialogue, and bizarre and unnatural performances as well as Breen's
+      real-life eccentricities as part of the film's ironic appeal.[4][5][6] Some
+      critics have cited the film as an example of outsider art, and the phenomenon
+      of \"so bad it's good\" media.["
+    rating: 0
+    director:
+    - 2
+    actor:
+    - 2
+    gengere: []
+- model: films.person
+  pk: 1
+  fields:
+    name: Christopher Nolan
+    slug: christopher-nolan
+    image_url: https://blogs.umb.edu/cinemastudies/files/2018/02/christopher-nolan-2m1uvea.jpg
+    year: 1970
+    description: "Christopher Edward Nolan CBE (born 30 July 1970) is a British-American
+      filmmaker. Known for his Hollywood blockbusters with complex storytelling, Nolan
+      is considered a leading filmmaker of the 21st century. His films have grossed
+      $5 billion worldwide. The recipient of many accolades, he has been nominated
+      for five Academy Awards, five BAFTA Awards and six Golden Globe Awards. In 2015,
+      he was listed as one of the 100 most influential people in the world by Time,
+      and in 2019, he was appointed Commander of the Order of the British Empire for
+      his contributions to film.\r\n\r\nNolan developed an interest in filmmaking
+      from a young age. After studying English literature at University College London,
+      he made several short films before his feature film debut with Following (1998).
+      Nolan gained international recognition with his second film, Memento (2000),
+      for which he was nominated for the Academy Award for Best Original Screenplay.
+      He transitioned from independent to studio filmmaking with Insomnia (2002),
+      and found further critical and commercial success with The Dark Knight Trilogy
+      (20052012), The Prestige (2006) and Inception (2010); the last of these earned
+      Nolan two Oscar nominationsBest Picture and Best Original Screenplay. This was
+      followed by Interstellar (2014), Dunkirk (2017) and Tenet (2020). For Dunkirk,
+      he earned two Academy Award nominations, including his first for Best Director.\r\n\r\nNolan's
+      work regularly feature in the listings of best films of their respective decades.
+      They are typically characterised by epistemology and existentialism. Infused
+      with a metaphysical outlook, they explore ethics, the construction of time,
+      and the malleable nature of memory and personal identity. His work is permeated
+      with mathematically inspired images and concepts, unconventional narrative structures,
+      practical special effects, experimental soundscapes, large-format film photography,
+      and materialistic perspectives. He has co-written several of his films with
+      his brother Jonathan, and runs the production company Syncopy Inc. with his
+      wife Emma Thomas."
+- model: films.person
+  pk: 2
+  fields:
+    name: Neil Breen
+    slug: neil-breen
+    image_url: https://images.mubicdn.net/images/cast_member/476348/cache-128936-1591255023/image-w856.jpg?size=800x
+    year: 1958
+    description: "Neil Breen (born November 23, 1958) is an American filmmaker and
+      actor.[1] Since 2005, he has written, directed, independently produced, and
+      starred in six theatrical feature films. Breen's films have garnered a cult
+      following for their low-budget production values, acting, writing, and editing.[2][3]\r\n\r\nLife
+      and career\r\nNeil Breen grew up on the East Coast of the United States, and
+      developed an interest in film and filmmaking at an early age. He studied architecture
+      and initially became a licensed architect in California.[4] He gained a small
+      following after releasing his first film, Double Down. In the years that followed,
+      Breen continued working as an architect as a means to finance his next film:
+      I Am Here.... Now. This second feature proved to be a breakout hit, reintroducing
+      familiar motifs and garnering Breen \"a lot of attention.\" Since then, he has
+      established a reputation as a cult amateur filmmaker.[4]"
+- model: films.person
+  pk: 3
+  fields:
+    name: John David Washington
+    slug: john-david-washington
+    image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/JohnDavidWashington.jpg/220px-JohnDavidWashington.jpg
+    year: 1984
+    description: "John David Washington (born July 28, 1984) is an American actor
+      and former professional football player. He played college football at Morehouse
+      College and signed with the St. Louis Rams as an undrafted free agent in 2006.
+      Professionally, Washington spent four years as a running back for the United
+      Football League's Sacramento Mountain Lions.\r\n\r\nWashington shifted to an
+      acting career like his father, Denzel Washington, and mother, Pauletta. He was
+      part of the main cast of the HBO comedy series Ballers (20152019). His breakthrough
+      came playing Ron Stallworth in Spike Lee's 2018 crime film BlacKkKlansman, for
+      which he received both Golden Globe and Screen Actors Guild Award nominations.
+      In 2020, he starred in Christopher Nolan's science fiction action-thriller film
+      Tenet, for which he won the Saturn Award for Best Actor. Washington has since
+      starred in a 2022 Broadway revival of the play The Piano Lesson."
+- model: films.person
+  pk: 4
+  fields:
+    name: Leonardo DiCaprio
+    slug: di-caprio
+    image_url: https://cdn.britannica.com/65/227665-050-D74A477E/American-actor-Leonardo-DiCaprio-2016.jpg
+    year: 1974
+    description: "Leonardo Wilhelm DiCaprio is an American actor and film producer.
+      Known for his work in biographical and period films, he is the recipient of
+      numerous accolades, including an Academy Award, a British Academy Film Award
+      and three Golden Globe Awards. As of 2019, his films have grossed over $7.2
+      billion worldwide, and he has been placed eight times in annual rankings of
+      the world's highest-paid actors.\r\n\r\nBorn in Los Angeles, DiCaprio began
+      his career in the late 1980s by appearing in television commercials. In the
+      early 1990s, he had recurring roles in various television shows, such as the
+      sitcom Parenthood, and had his first major film part as author Tobias Wolff
+      in This Boy's Life (1993). He received critical acclaim and his first Academy
+      Award and Golden Globe Award nominations for his performance as a developmentally
+      disabled boy in What's Eating Gilbert Grape (1993). DiCaprio achieved international
+      stardom with the star-crossed romances Romeo + Juliet (1996) and Titanic (1997).
+      After the latter became the highest-grossing film at the time, he reduced his
+      workload for a few years. In an attempt to shed his image of a romantic hero,
+      DiCaprio sought roles in other genres, including the 2002 crime dramas Catch
+      Me If You Can and Gangs of New York; the latter marked the first of his many
+      successful collaborations with director Martin Scorsese.\r\n\r\nDiCaprio continued
+      to gain acclaim for his performances in the biopic The Aviator (2004), the political
+      thriller Blood Diamond (2006), the crime drama The Departed (2006) and the romantic
+      drama Revolutionary Road (2008). In the 2010s, he made environmental documentaries
+      and starred in several high-profile directors' successful projects, including
+      the action thriller Inception (2010), the western Django Unchained (2012), the
+      biopic The Wolf of Wall Street (2013), the survival drama The Revenant (2015)for
+      which he won the Academy Award for Best Actorand the comedy-dramas Once Upon
+      a Time in Hollywood (2019) and Don't Look Up (2021).\r\n\r\nDiCaprio is the
+      founder of Appian Way Productionsa production company that has made some of
+      his films and the documentary series Greensburg (20082010)and the Leonardo DiCaprio
+      Foundation, a nonprofit organization devoted to promoting environmental awareness.
+      A United Nations Messenger of Peace, he regularly supports charitable causes.
+      In 2005, he was named a Commander of the Ordre des Arts et des Lettres for his
+      contributions to the arts, and in 2016, he appeared in Time magazine's 100 most
+      influential people in the world. DiCaprio was voted one of the 50 greatest actors
+      of all time in a 2022 readers' poll by Empire."
+- model: films.person
+  pk: 5
+  fields:
+    name: Henry Cavill
+    slug: henry-cavill
+    image_url: https://hips.hearstapps.com/hmg-prod/images/henry-cavill-6455184b166f4.jpg
+    year: 1983
+    description: "Henry William Dalgliesh Cavill is a British actor. He is known for
+      his portrayal of Charles Brandon in Showtime's The Tudors (2007–2010), DC Comics
+      character Superman in the DC Extended Universe (2013–2022), Geralt of Rivia
+      in the Netflix fantasy series The Witcher (2019–2023), and Sherlock Holmes in
+      the Netflix film Enola Holmes (2020) and its 2022 sequel.\r\n\r\nCavill began
+      his career with roles in the feature adaptations of The Count of Monte Cristo
+      (2002) and I Capture the Castle (2003). He later portrayed supporting roles
+      in several television series, including BBC's The Inspector Lynley Mysteries,
+      ITV's Midsomer Murders, and Showtime's The Tudors. He has since appeared in
+      other films, such as Tristan & Isolde (2006), Stardust (2007), and Immortals
+      (2011). Following his international breakthrough as Superman, he has starred
+      in the spy films The Man from U.N.C.L.E. (2015) and Mission: Impossible – Fallout
+      (2018)."
+- model: films.person
+  pk: 6
+  fields:
+    name: Matthew David McConaughey
+    slug: matthew-david-mc-conaughey
+    image_url: https://m.media-amazon.com/images/M/MV5BMTg0MDc3ODUwOV5BMl5BanBnXkFtZTcwMTk2NjY4Nw@@._V1_FMjpg_UX1000_.jpg
+    year: 1969
+    description: "Matthew David McConaughey is an American actor. He had his breakout
+      role with a supporting performance in the coming-of-age comedy Dazed and Confused
+      (1993).[1][2][3] After a number of supporting roles, his first success as a
+      leading man came in the legal drama A Time to Kill (1996). His career progressed
+      with lead roles in the science fiction film Contact (1997), the historical drama
+      Amistad (1997), and the war film U-571 (2000).\r\n\r\nIn the 2000s, McConaughey
+      became known for starring in romantic comedies, including The Wedding Planner
+      (2001), How to Lose a Guy in 10 Days (2003), Failure to Launch (2006), Fool's
+      Gold (2008), and Ghosts of Girlfriends Past (2009), establishing him as a sex
+      symbol.[4] In 2011, after a two-year hiatus from film acting, McConaughey began
+      to appear in more dramatic roles, beginning with the legal drama The Lincoln
+      Lawyer. In 2012, he gained wider praise for his roles as a stripper in Magic
+      Mike and a fugitive in Mud.[5]\r\n\r\nMcConaughey's portrayal of Ron Woodroof,
+      a cowboy diagnosed with AIDS, in the biopic Dallas Buyers Club (2013) earned
+      him widespread praise and numerous accolades, including the Academy Award for
+      Best Actor. He followed it with a supporting role in The Wolf of Wall Street
+      (2013), and a starring role as Rust Cohle in the first season of HBO's crime
+      anthology series True Detective (2014), for which he was nominated for the Primetime
+      Emmy Award for Outstanding Lead Actor in a Drama Series. His subsequent film
+      roles include starring in Interstellar (2014) and The Gentlemen (2019), as well
+      as voice work in Kubo and the Two Strings (2016), Sing (2016) and its sequel
+      Sing 2 (2021)."
+- model: films.person
+  pk: 7
+  fields:
+    name: Harry Styles
+    slug: harry-styles
+    image_url: https://m.media-amazon.com/images/M/MV5BMTUxMzU2MTk1OF5BMl5BanBnXkFtZTgwNzg4NjAwMzI@._V1_.jpg
+    year: 1994
+    description: "Harry Edward Styles (born 1 February 1994) is an English singer,
+      songwriter, and actor. His musical career began in 2010 as part of One Direction,
+      a boy band formed on the British music competition series The X Factor. Each
+      member of the band had been eliminated from the solo contest. They became one
+      of the best-selling boy groups of all time before going on an indefinite hiatus
+      in 2016.\r\n\r\nStyles released his self-titled debut solo album through Columbia
+      Records in 2017. It debuted at number one in the UK and the US and was one of
+      the world's top-ten best-selling albums of the year, while its lead single,
+      \"Sign of the Times\", topped the UK Singles Chart. Styles' second album, Fine
+      Line (2019), debuted atop the US Billboard 200 with the biggest ever first-week
+      sales by an English male artist, and was the most recent album to be included
+      in Rolling Stone's \"500 Greatest Albums of All Time\" in 2020. Its fourth single,
+      \"Watermelon Sugar\", topped the US Billboard Hot 100. Styles' third album,
+      Harry's House (2022), broke several records and was widely acclaimed, receiving
+      the Grammy Award for Album of the Year in 2023. Its lead single, \"As It Was\",
+      became the number-one song of the year globally according to Billboard.\r\n\r\nStyles
+      has received various accolades, including six Brit Awards, three Grammy Awards,
+      an Ivor Novello Award, and three American Music Awards. His film roles include
+      Dunkirk (2017), Don't Worry Darling, and My Policeman (both 2022). Aside from
+      music and acting, Styles is known for his flamboyant fashion. He is the first
+      man to appear solo on the cover of Vogue."
+- model: films.genere
+  pk: 2
+  fields:
+    name: Thriller
+- model: films.genere
+  pk: 3
+  fields:
+    name: Drama
+- model: films.genere
+  pk: 4
+  fields:
+    name: Action
+- model: films.genere
+  pk: 5
+  fields:
+    name: Superhero
+- model: films.genere
+  pk: 6
+  fields:
+    name: Sci-fi
+- model: films.comment
+  pk: 4
+  fields:
+    movie: 2
+    author: Janík
+    text: Mám rád tajemnou atmosféru a řešení záhad
+    rating: F
+    created_at: 2023-05-21 12:01:09.366167+00:00
+- model: films.comment
+  pk: 5
+  fields:
+    movie: 2
+    author: Nikol
+    text: Je až neuvěřitelné, kolik jsou různí lidé ochotní obětovat, film rozhodně
+      doporučuji.
+    rating: F
+    created_at: 2023-05-21 12:01:41.238452+00:00
+- model: films.comment
+  pk: 6
+  fields:
+    movie: 2
+    author: cultural ignoramus
+    text: Příliš málo akce a superhrdinů
+    rating: F
+    created_at: 2023-05-21 12:03:11.827242+00:00
+- model: films.comment
+  pk: 7
+  fields:
+    movie: 2
+    author: Ignorant
+    text: ''
+    rating: T
+    created_at: 2023-05-21 12:03:29.397835+00:00
+- model: films.comment
+  pk: 8
+  fields:
+    movie: 7
+    author: Critic
+    text: Not as good as I expected it to be.
+    rating: F
+    created_at: 2023-05-21 12:04:04.730204+00:00
+- model: films.comment
+  pk: 10
+  fields:
+    movie: 7
+    author: Monča
+    text: Normálně na podobné filmy nechodím, ale tento stál za to
+    rating: F
+    created_at: 2023-05-21 12:05:32.123094+00:00
+- model: films.comment
+  pk: 11
+  fields:
+    movie: 7
+    author: Drinker
+    text: Děj jsem úplně nepochopil a jsem celkově zklamaný
+    rating: T
+    created_at: 2023-05-21 12:06:11.644712+00:00
+- model: films.comment
+  pk: 12
+  fields:
+    movie: 7
+    author: Anonym
+    text: ''
+    rating: F
+    created_at: 2023-05-21 12:06:14.719237+00:00
+- model: films.comment
+  pk: 13
+  fields:
+    movie: 7
+    author: Anonym
+    text: ''
+    rating: T
+    created_at: 2023-05-21 12:06:17.499023+00:00
+- model: films.comment
+  pk: 14
+  fields:
+    movie: 11
+    author: Arthur
+    text: Velmi nízkorozpočtové
+    rating: T
+    created_at: 2023-05-21 12:10:09.931130+00:00
+- model: films.comment
+  pk: 15
+  fields:
+    movie: 3
+    author: Anonym
+    text: ''
+    rating: F
+    created_at: 2023-05-21 12:20:56.910195+00:00
+- model: films.comment
+  pk: 16
+  fields:
+    movie: 5
+    author: Peter
+    text: The best sci-fi movie I have ever seen
+    rating: F
+    created_at: 2023-06-06 19:56:32.723090+00:00
