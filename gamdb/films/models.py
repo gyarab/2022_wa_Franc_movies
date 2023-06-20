@@ -39,3 +39,5 @@ class Comment(models.Model):
     text = models.TextField(blank=True)
     rating = models.CharField(max_length=2, blank=False, default='T')
     created_at = models.DateTimeField(auto_now_add=True)
+    def __str__(self):
+        return f"{self.author} ({self.movie.name})"
